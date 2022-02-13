@@ -1,0 +1,140 @@
+                        /*TABLE ELEMENTS STYLING*/
+
+.page-id-1636 {
+background: #FFFFFF
+}
+
+.page-id-1649 {
+background: #FFFFFF
+}
+
+.page-id-1574 {
+background: #FFFFFF
+}
+
+.page-id-1678 {
+background: #FFFFFF
+}
+
+table.rota_tables {
+  border-collapse: collapse ;
+  margin: 0 auto ; 
+}
+
+td.rota_tables {
+  column-width: 100px ;
+  border-bottom: 1px solid #CDC1A7 ;
+  padding: 8px ;
+  text-align: center ;
+}
+    
+th.rota_tables {
+  font-size: 18px ;
+  padding: 8px ;
+  border-bottom-style: solid ;
+  border-bottom-color: #CDC1A7 ;
+  text-align: center ;
+}
+  
+tr:hover {background-color:#f5f5f5; !important}
+    
+ 
+a.button_edit {
+    background-color: #50c878 ;
+    border: none ;
+    border-radius: 3px ;
+    color: #FFFFFF ;
+    cursor: pointer ;
+    font-size: 16px ;
+    font-weight: 400 ;
+    padding: 2px 10px ;
+    width: auto ;
+}
+    
+a.button_delete {
+    background-color: #b43757 ;
+    border: none ;
+    border-radius: 3px ;
+    color: #FFFFFF ;
+    cursor: pointer ;
+    font-size: 16px ;
+    font-weight: 400 ;
+    padding: 2px 12px ;
+    width: auto ;
+}
+    
+
+													/*FORM ELEMENTS STYLING*/
+/* Style the form - display items horizontally */
+.form-inline {
+  display: block;
+  text-align: center;	
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  width: 8%;
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+	
+.form-inline select	{  
+  width: 11%;
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* To make it non-visible after the user clicks to select an option, you should set the display property to its "none" value. And also set the :invalid pseudo-class in order to fail to validate the contents of the <select> box placeholder. Specify also a color for your placeholder by using the color CSS property. */
+select:required:invalid {color: #666;}
+option[value=""][disabled] {display: none}
+option {color: #000;}
+	
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.button_save {
+    background-color: #6ab446;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 24px;
+    width: auto;
+}
